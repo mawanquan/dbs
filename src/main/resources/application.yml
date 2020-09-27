@@ -1,0 +1,9 @@
+
+spring:
+  resources:
+    static-locations: classpath:templates/,classpath:static/
+  mvc:
+    view:
+      prefix: html/
+      suffix: .html
+    static-path-pattern: /static/**E
